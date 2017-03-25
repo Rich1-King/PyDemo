@@ -1,0 +1,117 @@
+{
+    "dltype": 1,
+    "exem": 0,
+    "fl": {
+        "cnt": 3,
+        "fi": [
+            {
+                "br": 64,
+                "cname": "标清;(270P)",
+                "fs": 6939954,
+                "id": 10203,
+                "lmt": 0,
+                "name": "sd",
+                "sb": 1,
+                "sl": 0
+            },
+            {
+                "br": 64,
+                "cname": "高清;(360P)",
+                "fs": 24871026,
+                "id": 2,
+                "lmt": 0,
+                "name": "mp4",
+                "sb": 1,
+                "sl": 1
+            },
+            {
+                "br": 650,
+                "cname": "超清;(720P)",
+                "fs": 57012243,
+                "id": 10201,
+                "lmt": 0,
+                "name": "shd",
+                "sb": 1,
+                "sl": 0
+            }
+        ]
+    },
+    "hs": 0,
+    "ip": "180.175.250.15",
+    "ls": 0,
+    "preview": 195,
+    "s": "o",
+    "sfl": {
+        "cnt": 0
+    },
+    "tm": 1490368812,
+    "vl": {
+        "cnt": 1,
+        "vi": [
+            {
+                "br": 124,
+                "ch": 0,
+                "cl": {
+                    "fc": 0,
+                    "keyid": "c0023np2cgr.2"
+                },
+                "ct": 1,
+                "drm": 0,
+                "dsb": 0,
+                "fclip": 0,
+                "fmd5": "ccb85191c119e93bb456d25b7512b36c",
+                "fn": "c0023np2cgr.mp4",
+                "fs": 24871026,
+                "fst": 5,
+                "fvkey": "B4C788256CB379ACA98E166DBAFD646A9CE3EF6DE5D270E57827BD2D635D848E6B0634CE983312F49D595B1D96DCB68A4703860689B2CE52B4C15AE5B17027F3B3563B2484E42E42E5170279738874D6C3F24153A4724896",
+                "hevc": 0,
+                "iflag": 1,
+                "level": 0,
+                "lnk": "c0023np2cgr",
+                "logo": 1,
+                "share": 1,
+                "sp": 0,
+                "st": 2,
+                "td": "195.242",
+                "ti": "烧脑谍战大戏！王源、黄轩秀功夫帅气对打",
+                "type": 1137,
+                "ul": {
+                    "ui": [
+                        {
+                            "dt": 2,
+                            "dtc": 0,
+                            "url": "http://222.73.132.145/variety.tc.qq.com/",
+                            "vt": 217
+                        },
+                        {
+                            "dt": 2,
+                            "dtc": 0,
+                            "url": "http://vhoth.dnion.videocdn.qq.com/flv/120/84/",
+                            "vt": 112
+                        },
+                        {
+                            "dt": 2,
+                            "dtc": 0,
+                            "url": "http://vhotlx.video.qq.com/flv/120/84/",
+                            "vt": 150
+                        },
+                        {
+                            "dt": 2,
+                            "dtc": 10,
+                            "url": "http://video.dispatch.tc.qq.com/44366676/",
+                            "vt": 0
+                        }
+                    ]
+                },
+                "vh": 480,
+                "vid": "c0023np2cgr",
+                "videotype": 10,
+                "vst": 2,
+                "vw": 848,
+                "wl": {
+                    "wi": []
+                }
+            }
+        ]
+    }
+}
