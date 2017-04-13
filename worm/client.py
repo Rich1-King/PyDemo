@@ -45,8 +45,8 @@ def login_url():
         print('匹配到的内容为空')
 
 def download_swf():
-    url = 'https://imgcache.qq.com/tencentvideo_v1/playerv3/TencentPlayer.swf?max_age=86400&v=20170216&vid=c0023np2cgr&autoplay=1&volume=50&searchbar=0&showcfg=1&showend=1&openbc=1&list=2&pay=0&shownext=1&share=1&bullet=1&theater=1&skin='
-    filename_view = './view.mp4'
+    url = 'http://vm.gtimg.cn/tencentvideo/script/vplay/1704011501/play.min.js'
+    filename_view = './tencent.js'
     content = utils.http_utils.get(url)
     print(content)
     utils.file_utils.write_to_file(content, filename_view)
