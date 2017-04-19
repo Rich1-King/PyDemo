@@ -4,6 +4,7 @@ class varias_class(object):
     num = 10 #class varias_class 的属性, 在这里定义的都是类属性,
 
     #实例属性,只有用实例.属性定义的才是实例自己的属性eg:obj1.num 或者self=obj1 self.num
+    #用类.属性是为类创建实例,eg:varias_class.a = 1
 
     #实例方法默认有一个参数self,代替实例本身, self不可省略
     #实例调用默认会将self设置成该实例
@@ -14,7 +15,7 @@ class varias_class(object):
     #类方法需要加装饰器classmethod
     @classmethod
     def class_method(cls):
-        cls.num = 30
+        cls.num = 30 #为类创建属性
         print('class_method, num:', cls.num)
     
     #静态方法没有默认参数,所以实例和类都可以调用,但是必须要传递一个对象给self(静态方法不会默认将调用的对象赋值给第一个参数)
@@ -64,4 +65,13 @@ if __name__ == '__main__':
     print('obj1.num is obj1.num', obj1.num)
     print('obj2.num is varias.num', obj2.num) #因为obj2没有设置过属性num,所以它目前获取的还是类varias的
     print('varias_class.num is varias.num', varias_class.num)
-    
+
+    #为类创建实例
+    varias_class.a = 1
+    print(varias_class.a)
+    print(obj1.a)
+    print(obj2.a)
+    varias_class.a += 1
+    print(varias_class.a)
+    print(obj1.a)
+    print(obj2.a)
