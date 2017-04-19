@@ -1,7 +1,9 @@
 #coding:UTF-8
 
 class varias_class(object):
-    num = 10 #class varias_class 的属性
+    num = 10 #class varias_class 的属性, 在这里定义的都是类属性,
+
+    #实例属性,只有用实例.属性定义的才是实例自己的属性eg:obj1.num 或者self=obj1 self.num
 
     #实例方法默认有一个参数self,代替实例本身, self不可省略
     #实例调用默认会将self设置成该实例
