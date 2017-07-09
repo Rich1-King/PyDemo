@@ -2,7 +2,7 @@
 
 #@decore1
 #@decore2
-#相当于decore1(decore2())先执行括号内的，执行方法的时候不叫括号是不能执行的 
+#相当于decore1(decore2())先执行括号内的，执行方法的时候不加括号是不能执行的 
 
 def decore1(func):
     print('hello1')
